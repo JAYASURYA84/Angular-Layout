@@ -1,0 +1,100 @@
+/* Styling for the Overview Cards */
+.overview {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+    cursor:pointer;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 18%;
+    text-align: center;
+  }
+  
+  .card span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Styling for the Sales and Categories Charts Section */
+  .charts {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .chart-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+  }
+  
+  .chart-box h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for the Categories Grid */
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .category {
+    background-color: #e5e5e5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category:hover {
+    background-color: #c4c4c4;
+    cursor: pointer;
+  }
+  
+  /* Styling for the Details Section */
+  .details {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .details-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+  }
+  
+  .details-box h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .details-box p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .details-box p strong {
+    font-weight: bold;
+  }
+  

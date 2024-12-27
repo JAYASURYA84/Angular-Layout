@@ -1,0 +1,27 @@
+<div class="dashboard">
+  <div class="top-header">
+    <h3>Inventor.io</h3>
+    <input type="text" class="search-bar" placeholder="Search..." />
+  </div>
+
+  <div class="container">
+    <!-- Sidebar (stays fixed) -->
+    <aside class="sidebar">
+      <div class="box">
+        <a routerLink="/home" class="sidebar-item">🏠 Home</a>
+        <a routerLink="/products" class="sidebar-item">🛍️ Products</a>
+        <a routerLink="/categories" class="sidebar-item">🔠 Categories</a>
+        <a routerLink="/stores" class="sidebar-item">🏪 Stores</a>
+        <a routerLink="/finances" class="sidebar-item">💰 Finances</a>
+        <a routerLink="/settings" class="sidebar-item">⚙️ Settings</a>
+        <a routerLink="/addproduct" class="sidebar-item">⊕ Add Product</a>
+        <a routerLink="/logout" class="sidebar-item">↪️ Logout</a>
+      </div>
+    </aside>
+
+    <!-- Functionalities Area (content changes based on routing) -->
+    <div class="functionality-area">
+      <router-outlet></router-outlet> <!-- This is where the content will change -->
+    </div>
+  </div>
+</div>

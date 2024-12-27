@@ -1,0 +1,102 @@
+.stores {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Section */
+  .header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .header h2 {
+    font-size: 28px;
+    margin: 0 0 5px;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+  }
+  
+  /* Overview Cards */
+  .overview {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 16px;
+    
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #f1f1f1;
+  }
+  
+  .card span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Charts Section */
+  .charts {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-box {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-box h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+  }
+  
+  /* Details Section */
+  .details {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .details-box {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-box h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+  }
+  
+  .details-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .details-box ul li {
+    margin: 5px 0;
+  }
+  

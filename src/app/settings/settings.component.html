@@ -1,0 +1,57 @@
+<div class="functionality-area">
+    <h2>Settings</h2>
+  
+    <!-- Profile Settings -->
+    <div class="settings-section">
+      <h4>Profile Settings</h4>
+      <div class="settings-row">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="JohnDoe" />
+      </div>
+      <div class="settings-row">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="john.doe@example.com" />
+      </div>
+      <button class="action-button" (click)="saveProfile()">Save Changes</button>
+    </div>
+  
+    <!-- Notification Settings -->
+    <div class="settings-section">
+      <h4>Notification Settings</h4>
+      <div class="settings-row">
+        <label>
+          <input type="radio" name="notification" [(ngModel)]="selectedNotification" value="email" />
+          Email Notifications
+        </label>
+      </div>
+      <div class="settings-row">
+        <label>
+          <input type="radio" name="notification" [(ngModel)]="selectedNotification" value="sms" />
+          SMS Notifications
+        </label>
+      </div>
+      <div class="settings-row">
+        <label>
+          <input type="radio" name="notification" [(ngModel)]="selectedNotification" value="push" />
+          Push Notifications
+        </label>
+      </div>
+      <button class="action-button" (click)="saveNotifications()">Save Notifications</button>
+    </div>
+  
+    <!-- Theme Settings -->
+    <div class="settings-section">
+      <h4>Theme Settings</h4>
+      <div class="settings-row">
+        <label for="theme">Select Theme:</label>
+        <select id="theme" [(ngModel)]="selectedTheme" (change)="applyTheme()">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+        </select>
+      </div>
+      <button class="action-button" (click)="applyTheme()">Apply Theme</button>
+    </div>
+  </div>
+  

@@ -1,0 +1,65 @@
+/* Dashboard Container */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Top Header */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-header h3 {
+  color: rgb(100, 18, 209);
+  font-size: 25px;
+  margin: 0;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: rgb(134, 25, 216);
+  color: white;
+}
+
+.sidebar-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  margin: 5px 0;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.sidebar-item:hover {
+  background-color: rgb(112, 18, 188);
+}
+
+
+
+/* Functionalities Area */
+.functionality-area {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
